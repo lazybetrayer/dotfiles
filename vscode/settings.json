@@ -14,7 +14,7 @@
     "material-icon-theme.showUpdateMessage": false,
     "vim.leader": ",",
     "vim.enableNeovim": true,
-    "vim.neovimPath": "/usr/local/bin/nvim",
+    "vim.neovimPath": "/opt/homebrew/bin/nvim",
     "vim.useSystemClipboard": true,
     "vim.easymotion": true,
     "vim.hlsearch": true,
@@ -86,5 +86,6 @@
         "{column_limit: 119}"
     ],
     "breadcrumbs.enabled": true,
-    "editor.renderControlCharacters": true
+    "editor.renderControlCharacters": true,
+    "go.toolsManagement.autoUpdate": true
 }

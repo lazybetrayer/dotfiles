@@ -50,8 +50,8 @@ fi
 . ~/.bash_prompt
 
 if [[ $OSTYPE =~ darwin* ]]; then
-    if [ -f /usr/local/share/bash-completion/bash_completion ]; then
-        . /usr/local/share/bash-completion/bash_completion
+    if [ -f /opt/homebrew/etc/bash_completion ]; then
+        . /opt/homebrew/etc/bash_completion
     elif [ -f /usr/local/etc/bash_completion ]; then
         . /usr/local/etc/bash_completion
     fi
